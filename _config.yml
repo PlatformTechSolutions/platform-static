@@ -1,0 +1,15 @@
+### GENERAL SETTINGS ###
+
+# Site settings
+title: ""
+description: "."
+keyword: ""
+analytics: UA-104964578-1
+baseurl:   ""
+url: "https://pussgrc.github.io/"
+
+
+
+# styling configuration
+sass:
+    style: expanded
