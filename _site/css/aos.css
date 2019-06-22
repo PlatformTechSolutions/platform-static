@@ -425,6 +425,7 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos], [data-aos][data-aos][data-
     * Flip animations:
     * flip-left, flip-right, flip-up, flip-down
     */ }
+
     html:not(.no-js) [data-aos^='fade'][data-aos^='fade'] {
       opacity: 0;
       transition-property: opacity, transform;

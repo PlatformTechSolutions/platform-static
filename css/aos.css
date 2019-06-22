@@ -382,7 +382,7 @@ body[data-aos-easing="ease-in-out-back"] [data-aos], [data-aos][data-aos][data-a
   transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); }
 body[data-aos-easing="ease-in-sine"] [data-aos], [data-aos][data-aos][data-aos-easing="ease-in-sine"] {
   transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715); }
-body[data-aos-easing="ease-out-sine"] [data-aos], [data-aos][data-aos][data-aos-easing="ease-out-sine"] {
+body[data-aos-easing="ease-out-sine"] [data-aos], [data-aos][data-aos][data-aos-easing="ease-out-sine"] {  
   transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1); }
 body[data-aos-easing="ease-in-out-sine"] [data-aos], [data-aos][data-aos][data-aos-easing="ease-in-out-sine"] {
   transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95); }
