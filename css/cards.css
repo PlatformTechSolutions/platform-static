@@ -1,0 +1,8 @@
+.scservices {
+    margin-top: 100px;
+    background: rgba(0,0,0.85) url(../images/section2n.jpg) center right no-repeat;
+    background-size: cover;
+  }
+  .scservices{
+    font-size: 90%;
+  }
