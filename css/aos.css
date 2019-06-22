@@ -382,7 +382,7 @@ body[data-aos-easing="ease-in-out-back"] [data-aos], [data-aos][data-aos][data-a
   transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); }
 body[data-aos-easing="ease-in-sine"] [data-aos], [data-aos][data-aos][data-aos-easing="ease-in-sine"] {
   transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715); }
-body[data-aos-easing="ease-out-sine"] [data-aos], [data-aos][data-aos][data-aos-easing="ease-out-sine"] {
+body[data-aos-easing="ease-out-sine"] [data-aos], [data-aos][data-aos][data-aos-easing="ease-out-sine"] {  
   transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1); }
 body[data-aos-easing="ease-in-out-sine"] [data-aos], [data-aos][data-aos][data-aos-easing="ease-in-out-sine"] {
   transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95); }
@@ -406,7 +406,25 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos], [data-aos][data-aos][data-
   transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); }
 
 @media screen {
-   
+  html:not(.no-js) {
+    /**
+    * Fade animations:
+    * fade
+    * fade-up, fade-down, fade-left, fade-right
+    * fade-up-right, fade-up-left, fade-down-right, fade-down-left
+    */
+    /**
+    * Zoom animations:
+    * zoom-in, zoom-in-up, zoom-in-down, zoom-in-left, zoom-in-right
+    * zoom-out, zoom-out-up, zoom-out-down, zoom-out-left, zoom-out-right
+    */
+    /**
+    * Slide animations
+    */
+    /**
+    * Flip animations:
+    * flip-left, flip-right, flip-up, flip-down
+    */ }
     html:not(.no-js) [data-aos^='fade'][data-aos^='fade'] {
       opacity: 0;
       transition-property: opacity, transform;
