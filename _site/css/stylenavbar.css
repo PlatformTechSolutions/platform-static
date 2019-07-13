@@ -1,0 +1,25 @@
+.navbrand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item{
+    margin: 2px 18px;
+}
+
+.nav-item:hover {
+    box-shadow: 3px 3px 12px #ffffff;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    color: #ffffff;
+  }
+
+span.brand-name{
+    font-size: 1.25rem;
+  }
+
+ul.navbar-nav{
+    font-size: 1.15rem;
+  }
