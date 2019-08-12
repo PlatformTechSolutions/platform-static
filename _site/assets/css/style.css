@@ -284,7 +284,7 @@ li {
 page -Layout
 ********************************************/
 /*****************************************
-header
+footer
 *************************/
 /*******************************************
 Events
@@ -353,4 +353,16 @@ navbar -responsive
   .navbar-link:hover {
     right: -50px;
   }
+}
+.navBrand {
+  display: flex;
+  align-items: center;
+}
+
+.navItem {
+  padding-left: 1.5rem;
+}
+
+.navBarCollapse {
+  padding-right: 1.2rem;
 }
