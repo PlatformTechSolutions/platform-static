@@ -1,3 +1,4 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 article,
 aside,
 details,
@@ -286,9 +287,142 @@ page -Layout
 /*****************************************
 footer
 *************************/
-/*******************************************
-Events
-**********************************/
+.foot {
+  padding: 30px 0 0 10px;
+}
+
+.foot .foot-title {
+  text-align: center;
+  color: #3a3b3b;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+#footer {
+  background: #3a3b3b !important;
+}
+
+#footer h2 {
+  padding-left: 10px;
+  border-left: 3px solid #eeeeee;
+  padding-bottom: 6px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.fa-angle-double-right:before {
+  content: "\f101";
+  /* foomt-size: 3rem; */
+  font-size: 1rem;
+}
+
+.fa-facebook-f:before, .fa-facebook:before {
+  content: "\f09a";
+  font-size: 1.8rem;
+}
+
+/* .fa-facebook-f:before, .fa-facebook:before:hover{ */
+    /* content: "\f09a";
+    font-size: 0.9rem;
+} */
+.fa-twitter:before {
+  content: "\f099";
+  font-size: 1.8rem;
+}
+
+.fa-instagram:before {
+  content: "\f16d";
+  font-size: 1.8rem;
+}
+
+.fa-linkedin-square:before {
+  content: "\f08c";
+  font-size: 1.8rem;
+}
+
+#footer a {
+  color: #ffffff;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+#footer ul.social li {
+  padding: 3px 0;
+}
+
+#footer ul.social li a i {
+  margin-right: 5px;
+  font-size: 25px;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+
+#footer ul.social li:hover a i {
+  font-size: 30px;
+  margin-top: -10px;
+}
+
+#footer ul.social li a,
+#footer ul.quick-links li a {
+  color: #ffffff;
+}
+
+#footer ul.social li a:hover {
+  color: #eeeeee;
+}
+
+#footer ul.quick-links li {
+  padding: 3px 0;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+
+#footer ul.quick-links li:hover {
+  padding: 3px 0;
+  margin-left: 5px;
+  font-weight: 700;
+}
+
+#footer ul.quick-links li a i {
+  margin-right: 5px;
+}
+
+#footer ul.quick-links li:hover a i {
+  font-weight: 700;
+}
+
+p.address {
+  margin-top: -1rem;
+  color: #ffffff;
+}
+
+h4.brand-name {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.socialIcon:hover {
+  font-size: 1.6rem;
+}
+.socialIcon:hover .fa-facebook {
+  color: #3b5998;
+}
+.socialIcon:hover .fa-twitter {
+  color: #55acee;
+}
+.socialIcon:hover .fa-instagram {
+  color: #d30e60;
+}
+.socialIcon:hover .fa-linkedin-square {
+  color: #0077b5;
+}
+
+/* h5.contact-new{
+  margin-bottom: 2.5rem;
+} */
 /***************************
 button liquid
 *******************************/
