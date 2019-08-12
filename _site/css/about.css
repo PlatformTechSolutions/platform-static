@@ -1,0 +1,22 @@
+.NIa:active {
+    background-color: #a6a5a4;
+    border-radius: 5px;
+    padding: 5px inherit 5px 5px;
+    border: 1px solid #a6a5a4;
+    color: #fd3300;
+}
+
+.size {
+    font-size: 145%;
+}
+
+.size:hover {
+    border: 1px solid #fd3300;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-width: auto;
+}
+
+h2 {
+    color: #760972;
+}

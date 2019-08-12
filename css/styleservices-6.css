@@ -2,11 +2,11 @@
 	margin:0;
 	padding: 0;
 } */
-.container-fluid{
+/* .container-fluid{
 	width: 100%;
 	margin: 0px 0px;
 	padding: 0px 0px;
-}
+} */
 .navbrand{
     display: flex;
     justify-content: center;
