@@ -488,17 +488,30 @@ navbar -responsive
     right: -50px;
   }
 }
+.navBarMain {
+  margin-bottom: 0px !important;
+  height: 7.5rem;
+}
+
 .navBrand {
   display: flex;
   align-items: center;
 }
 
 .navItem {
-  padding-left: 1.5rem;
+  margin-right: 3rem;
 }
 
 .navBarCollapse {
   padding-right: 1.2rem;
+}
+
+.brandName {
+  margin-left: 1.5rem;
+}
+
+.navRight {
+  margin-left: 25rem;
 }
 
 /* Jumbotron starts */
@@ -516,6 +529,7 @@ navbar -responsive
 .jumbotron h1 {
   color: #fff;
   font-family: "Cinzel", serif;
+  font-size: 35px;
 }
 
 /* Jumbotron Ends */
