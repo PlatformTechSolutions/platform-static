@@ -1443,17 +1443,5 @@ navbar -responsive
 }
 
 .navItem {
-  margin-right: 3rem;
-}
-
-.navBarCollapse {
-  padding-right: 1.2rem;
-}
-
-.brandName {
-  margin-left: 1.5rem;
-}
-
-.navRight {
-  margin-left: 25rem;
+  padding: 0 1.2rem;
 }
