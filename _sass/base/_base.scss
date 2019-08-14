@@ -30,7 +30,7 @@ a {
   transition: color .2s;
   &:hover{
     text-decoration: none;
-    color: #fff;
+    color: $color-link-hover;
   }
 }
 

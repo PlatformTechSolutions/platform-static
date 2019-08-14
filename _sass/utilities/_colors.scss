@@ -10,7 +10,7 @@ $venus:                     #998099;
 $patina:                    #699;
 $nebula:                    #d2e1dd;
 $white:                     #fff;
-$dawn-pink:                 #f2ece4;
+$dawn-pink:                 #d8d3cc;
 $wafer:                     #e1d7d2;
 $iron:                      #dadbdf;
 $regent-grey:               #808c99;
@@ -41,7 +41,7 @@ $color-text-invert:         rgba($color-background, .75);
 $color-text-strong-invert:  $color-background;
 
 // Links
-$color-link:                blue;
+$color-link:                $white;
 $color-link-hover:          $dawn-pink;
 $color-link-visited:        $bouquet;
 
