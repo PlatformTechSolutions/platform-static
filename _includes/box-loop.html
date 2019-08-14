@@ -1,0 +1,14 @@
+<div class="container mb-5">
+<div class="row">
+{% for service in site.data.service-seo.services %}
+<div class="col-lg-4">
+    <div class="card">
+      <div class="box">
+        <h4 class="card-title">{{service.title}}</h4>
+        <p class="card-text">{{service.description}}</p>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
+</div>

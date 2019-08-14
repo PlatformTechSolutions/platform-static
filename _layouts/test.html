@@ -1,0 +1,14 @@
+<html>
+{% include head.html %}
+
+<body>
+        {% assign services = site.data.service-seo.services%}
+    {% include test-inc.html %}
+    <!-- {{page.test | flatify }} -->
+    {% for service in services %}
+        <p>{{service.title | inspect }}</p>
+    {% endfor %}
+    {{ content }}
+</body>
+
+</html>
