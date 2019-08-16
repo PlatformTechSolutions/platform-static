@@ -417,6 +417,108 @@ footer
 /***************************
 button liquid
 *******************************/
+.landing-box {
+  margin: -25px 0 0 0;
+  background: #e5eaea;
+  height: 1000px;
+  padding-top: 15px;
+  margin-top: 50px;
+}
+
+.landing-box img {
+  height: 232px;
+  width: 358px;
+  padding-bottom: 30px;
+  line-height: 2px;
+  border-bottom: 2px solid #d5d5d5;
+}
+
+.landing-box > .col-lg-12 {
+  text-align: center;
+  color: #0758ae;
+  text-transform: uppercase;
+  text-shadow: 0 0 15px #0758ae;
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: -20%;
+}
+
+.landing-box h3 {
+  text-align: center;
+  /* font-family: "Cinzel", serif; */
+  font-family: 'Montserrat', sans-serif;
+}
+
+.landing-box .line {
+  background: crimson;
+  height: 2px;
+  width: 100%;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.project-box {
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+  display: flex;
+}
+.project-box .media-background {
+  position: relative;
+  padding: 15px;
+  /* height: 310px; */
+  width: 380px;
+  background: #e5eaea;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.project-box .media-background:hover {
+  height: 250px;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 1s;
+}
+.project-box .media-background .media-description {
+  position: absolute;
+  width: 360px;
+  top: 500px;
+  height: 232px;
+  left: 29px;
+  background: rgba(213, 213, 213, 0.4);
+  justify-content: center;
+  align-items: center;
+}
+.project-box .media-background .media-description .btn {
+  position: absolute;
+  bottom: 30px;
+  left: 100px;
+  background-color: #372beb;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 500;
+}
+.project-box .media-background .media-object {
+  padding: 15px;
+  text-align: center;
+  justify-content: center;
+}
+.project-box .media-background .media-object .media-heading {
+  text-align: center;
+  /* font-family: "Cinzel", serif; */
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+}
+.project-box .media-background .media-object img {
+  width: 320px;
+}
+
+.landing-box .media-object:hover .media-description {
+  top: 29px;
+  cursor: pointer;
+  transition: all .5s;
+  -webkit-transition: all .5s;
+}
+
 body {
   background-color: #e6e6e6;
 }
