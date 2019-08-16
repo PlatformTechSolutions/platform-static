@@ -1,5 +1,4 @@
-
-    .mapouter {
+ .mapouter {
         text-align: right;
         height: 500px;
         width: 600px;
@@ -56,6 +55,8 @@
 
     .form-map {
         color: white;
+        display: flex;
+        justify-content: center;
     }
 
     .well {
