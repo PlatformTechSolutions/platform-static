@@ -1381,8 +1381,146 @@ nav ul li {
 
 /* Jumbotron Ends */
 /*	################################################################
+
+	Author: Carlos Alvarez
+	URL: http://alvarez.is
+
+	Project Name: SOLID - Bootstrap 3 Theme
+	Version: 1.0
+	URL: http://alvarez.is
+	
+	Edited by : Dilip kumar sharma
+	url: platform.net.in
+	project Name: yantrix site
+	
+################################################################# */
+/*	################################################################
+	1. GENERAL STRUCTURES
+################################################################# */
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+body {
+  background: #ffffff;
+  margin: 0;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  padding: 0;
+  margin-bottom: 12px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 20px;
+}
+
+ol {
+  margin-left: 0;
+  padding-left: 26px;
+}
+
+a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  -webkit-transition: background-color .4s linear, color .4s linear;
+  -moz-transition: background-color .4s linear, color .4s linear;
+  -o-transition: background-color .4s linear, color .4s linear;
+  -ms-transition: background-color .4s linear, color .4s linear;
+  transition: background-color .4s linear, color .4s linear;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+::-moz-selection {
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  color: #fff;
+  text-shadow: none;
+}
+
+.centered {
+  text-align: center;
+}
+
+/*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
+.navbar {
+  min-height: 70px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
+.navbar-brand {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
+
+.navbar-header .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+}
+
+.navbar-default {
+  border-color: transparent;
+}
+
+.dropdown-menu > li > a {
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.btn-theme {
+  color: #fff;
+  margin: 4px;
+}
+
+.btn-theme:hover,
+.btn-theme:focus,
+.btn-theme:active,
+.btn-theme.active,
+.open .dropdown-toggle.btn-theme {
+  color: #fff;
+}
+
 .dmbutton:hover,
 .dmbutton:active,
 .dmbutton:focus {
@@ -1430,6 +1568,10 @@ nav ul li {
   margin-top: 60px;
 }
 
+.hline {
+  border-bottom: 2px solid black;
+}
+
 .hline-w {
   border-bottom: 2px solid #ffffff;
   margin-bottom: 25px;
@@ -1465,6 +1607,11 @@ nav ul li {
 #service {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+#service i {
+  font-size: 60px;
+  padding: 15px;
 }
 
 /* Portfolio Wrap */
@@ -1514,7 +1661,21 @@ nav ul li {
   font-size: 13px;
 }
 
+.tpl6 .bg {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
 /* Testimonials Wrap */
+#twrapback {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 #twrap {
   background: url(../img/t-back.jpg) no-repeat center top;
   position: relative;
@@ -1560,10 +1721,27 @@ nav ul li {
 }
 
 /* Footer */
+#footerwrap {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#footerwrap i {
+  font-size: 30px;
+  padding-right: 25px;
+}
+
 /*	################################################################
 	PAGE CONFIGURATIONS
 ################################################################# */
 /* General Tweaks */
+#blue {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 #blue h3 {
   color: white;
   margin-left: 15px;
@@ -1591,7 +1769,12 @@ nav ul li {
   border-radius: 10px;
 }
 
-csmall {
+.ctitle {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.csmall {
   font-size: 12px;
   color: #b3b3b3;
 }
@@ -1602,7 +1785,8 @@ csmall {
 }
 
 /* Contact Page */
-/*	background: url(../img/contact.jpg) no-repeat center top;
+/*#contactwrap {
+	background: url(../img/contact.jpg) no-repeat center top;
 	margin-top: -60px;
 	padding-top:0px;
 	text-align:center;

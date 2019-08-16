@@ -1,149 +1,165 @@
+/*	################################################################
 
+	Author: Carlos Alvarez
+	URL: http://alvarez.is
+
+	Project Name: SOLID - Bootstrap 3 Theme
+	Version: 1.0
+	URL: http://alvarez.is
+	
+	Edited by : Dilip kumar sharma
+	url: platform.net.in
+	project Name: yantrix site
+	
+################################################################# */ 
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
 
-// 	* { 
-// 		margin: 0;
-// 		padding: 0px;
-// 	} 
+/*	################################################################
+	1. GENERAL STRUCTURES
+################################################################# */
+	* { 
+		margin: 0;
+		padding: 0px;
+	} 
 
-// body { 
-// 	background: #ffffff; 
-// 	margin: 0; 
-// 	height: 100%; 
-// 	color: {{ site.colors.secondary }};
-// 	font-family: 'Lato', sans-serif;
-// 	font-weight: 400;
-// 	}
+body { 
+	background: #ffffff; 
+	margin: 0; 
+	height: 100%; 
+	// color: {{ site.colors.secondary }};
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	}
 
-// h1, h2, h3, h4, h5, h6 {
-// 	font-family: 'Raleway', sans-serif;
-// 	font-weight: 700;
-// }
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
 
-// p { 
-// 	padding: 0; 
-// 	margin-bottom: 12px; 
-// 	font-family: 'Lato', sans-serif;
-// 	font-weight: 400;
-// 	font-size: 14px; 
-// 	line-height: 24px;
-// 	color: {{ site.colors.secondary }}; 
-// 	margin-top: 10px; 
-// }
+p { 
+	padding: 0; 
+	margin-bottom: 12px; 
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 14px; 
+	line-height: 24px;
+	// color: {{ site.colors.secondary }}; 
+	margin-top: 10px; 
+}
 
-// img {
-// 	height: auto;
-// 	max-width: 100%;
-// }
+img {
+	height: auto;
+	max-width: 100%;
+}
 
-// ul {
-//     margin-left: 0;
-//     padding-left: 20px;
-// }
+ul {
+    margin-left: 0;
+    padding-left: 20px;
+}
 
-// ol {
-//     margin-left: 0;
-//     padding-left: 26px;
-// }
+ol {
+    margin-left: 0;
+    padding-left: 26px;
+}
 
-// a { 
-//     color:{{ site.colors.link }};
-//     padding: 0;
-// 	margin: 0;
-// 	text-decoration: none; 
-// 	-webkit-transition: background-color .4s linear, color .4s linear;
-// 	-moz-transition: background-color .4s linear, color .4s linear;
-// 	-o-transition: background-color .4s linear, color .4s linear;
-// 	-ms-transition: background-color .4s linear, color .4s linear;
-// 	transition: background-color .4s linear, color .4s linear;
-// }
-// a:hover,
-// a:focus {
-//   text-decoration: none;
+a { 
+    // color:{{ site.colors.link }};
+    padding: 0;
+	margin: 0;
+	text-decoration: none; 
+	-webkit-transition: background-color .4s linear, color .4s linear;
+	-moz-transition: background-color .4s linear, color .4s linear;
+	-o-transition: background-color .4s linear, color .4s linear;
+	-ms-transition: background-color .4s linear, color .4s linear;
+	transition: background-color .4s linear, color .4s linear;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
 //   color:{{ site.colors.link_hover }};
-// }
+}
 
-// ::-moz-selection  {
-// 	color: #fff;
-// 	text-shadow:none;
-// 	background:{{ site.colors.secondary }};
-// }
-// ::selection {
-// 	color: #fff;
-// 	text-shadow:none;
-// 	background:{{ site.colors.secondary }};
-// }
+::-moz-selection  {
+	color: #fff;
+	text-shadow:none;
+	// background:{{ site.colors.secondary }};
+}
+::selection {
+	color: #fff;
+	text-shadow:none;
+	// background:{{ site.colors.secondary }};
+}
 
-// .centered {
-// 	text-align: center
-// }
+.centered {
+	text-align: center
+}
 
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
-// .navbar {
-// 	min-height: 70px;
-// 	padding-top: 10px;
-// 	margin-bottom: 0px;
-// }
+.navbar {
+	min-height: 70px;
+	padding-top: 10px;
+	margin-bottom: 0px;
+}
 
-// .navbar-brand {
-// 	font-family: 'Raleway', sans-serif;
-// 	font-weight: 900;
-// }
+.navbar-brand {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+}
 
-// .navbar-header .navbar-brand {
-// 	color: white;
-// }
+.navbar-header .navbar-brand {
+	color: white;
+}
 
-// .navbar-default .navbar-nav > li > a {
-// 	color: white;
-// 	font-weight: 700;
-// 	font-size: 18px;
-// }
+.navbar-default .navbar-nav > li > a {
+	color: white;
+	font-weight: 700;
+	font-size: 18px;
+}
 
 // .navbar-default .navbar-nav > li > a:hover {
-// 	color: {{ site.colors.primary }};
+// 	// color: {{ site.colors.primary }};
 // }
 
-// .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-// 	color: {{ site.colors.primary }};
-// 	background-color: transparent;
-// }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	// color: {{ site.colors.primary }};
+	background-color: transparent;
+}
 
-// .navbar-default {
-// 	background-color: {{ site.colors.secondary }};
-// 	border-color: transparent;
-// }
+.navbar-default {
+	// background-color: {{ site.colors.secondary }};
+	border-color: transparent;
+}
 
 // .dropdown-menu {
-// 	background: {{ site.colors.secondary }};
+// 	// background: {{ site.colors.secondary }};
 // }
 
-// .dropdown-menu > li > a {
-// 	color: white;
-// 	font-weight: 700;
-// 	font-size: 12px;
-// }
+.dropdown-menu > li > a {
+	color: white;
+	font-weight: 700;
+	font-size: 12px;
+}
 
-// .btn-theme {
-//   color: #fff;
+.btn-theme {
+  color: #fff;
 //   background-color: {{ site.colors.secondary }};
 //   border-color: {{ site.colors.secondary }};
-//   margin: 4px;
-// }
-// .btn-theme:hover,
-// .btn-theme:focus,
-// .btn-theme:active,
-// .btn-theme.active,
-// .open .dropdown-toggle.btn-theme {
-//   color: #fff;
+  margin: 4px;
+}
+.btn-theme:hover,
+.btn-theme:focus,
+.btn-theme:active,
+.btn-theme.active,
+.open .dropdown-toggle.btn-theme {
+  color: #fff;
 //   background-color: {{ site.colors.primary }};
 //   border-color: {{ site.colors.primary }};
-// }
+}
 
 .dmbutton:hover,
 .dmbutton:active,
@@ -191,9 +207,9 @@
 	margin-top: 60px;
 }
 
-// .hline {
-// 	border-bottom: 2px solid {{ site.colors.secondary }};
-// }
+.hline {
+	border-bottom: 2px solid black;
+}
 
 .hline-w {
 	border-bottom: 2px solid #ffffff;
@@ -231,11 +247,11 @@
 	margin-bottom: 0px;
 }
 
-// #service i {
-// 	color: {{ site.colors.primary }};
-// 	font-size: 60px;
-// 	padding: 15px;
-// }
+#service i {
+	// color: {{ site.colors.primary }};
+	font-size: 60px;
+	padding: 15px;
+}
 
 /* Portfolio Wrap */
 #portfoliowrap {
@@ -276,25 +292,25 @@
 	font-size:13px;
 }
 
-// .tpl6 .bg
-// {
-// 	height:100%;
-// 	width:100%;
-// 	background-color:{{ site.colors.primary }};
-// 	background-color:rgba({{ site.colors.primary_rgb }},.9);
-// 	text-align:center;
-// }
+.tpl6 .bg
+{
+	height:100%;
+	width:100%;
+	// background-color:{{ site.colors.primary }};
+	// background-color:rgba({{ site.colors.primary_rgb }},.9);
+	text-align:center;
+}
 
 /* Testimonials Wrap */
-// #twrapback {
-//     background-color: {{ site.colors.primary }};
-//     background-color:rgba({{ site.colors.primary_rgb }},.8);
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     width: 100%;
-//     height: 100%;
-// }
+#twrapback {
+    // background-color: {{ site.colors.primary }};
+    // background-color:rgba({{ site.colors.primary_rgb }},.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 #twrap {
     background: url(../img/t-back.jpg) no-repeat center top;
@@ -343,28 +359,28 @@
 }
 
 /* Footer */
-// #footerwrap {
-// 	padding-top: 60px;
-// 	padding-bottom: 60px;
-// 	background: {{ site.colors.secondary }};
-// }
+#footerwrap {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	// background: {{ site.colors.secondary }};
+}
 
 // #footerwrap p {
-// 	color: {{ site.colors.footer_content }};
+// 	// color: {{ site.colors.footer_content }};
 // }
 
 // #footerwrap h4 {
-// 	color: {{ site.colors.footer_heading }};
+// 	// color: {{ site.colors.footer_heading }};
 // }
 
-// #footerwrap i {
-// 	font-size: 30px;
-// 	color: {{ site.colors.footer_content }};
-// 	padding-right: 25px;
-// }
+#footerwrap i {
+	font-size: 30px;
+	// color: {{ site.colors.footer_content }};
+	padding-right: 25px;
+}
 
 // #footerwrap i:hover {
-// 	color: {{ site.colors.primary }}
+// 	// color: {{ site.colors.primary }}
 // }
 
 /*	################################################################
@@ -372,13 +388,13 @@
 ################################################################# */
 /* General Tweaks */
 
-// #blue {
-// 	background: {{ site.colors.primary }};
-// 	margin-top: 60px;
-// 	margin-bottom: 60px;
-// 	padding-top: 25px;
-// 	padding-bottom: 25px;
-// }
+#blue {
+	// background: {{ site.colors.primary }};
+	margin-top: 60px;
+	margin-bottom: 60px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
 
 #blue h3 {
 	color: white;
@@ -407,13 +423,13 @@
   border-radius: 10px;
 }
 
-// .ctitle {
-// 	color: {{ site.colors.primary }};
-// 	font-weight: 700;
-// 	margin-bottom: 15px;
-// }
+.ctitle {
+	// color: {{ site.colors.primary }};
+	font-weight: 700;
+	margin-bottom: 15px;
+}
 
-csmall {
+.csmall {
 	font-size: 12px;
 	color: #b3b3b3;
 }
@@ -424,12 +440,12 @@ csmall {
 }
 
 // .badge-theme {
-// 	background: {{ site.colors.primary }};
+// 	// background: {{ site.colors.primary }};
 // }
 
 /* Contact Page */
-// #contactwrap {
-/*	background: url(../img/contact.jpg) no-repeat center top;
+/*#contactwrap {
+	background: url(../img/contact.jpg) no-repeat center top;
 	margin-top: -60px;
 	padding-top:0px;
 	text-align:center;
