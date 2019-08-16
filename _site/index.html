@@ -15,8 +15,8 @@
      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
      crossorigin="anonymous" />
      
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 
-     
 
     <!-- Custom styles for this template -->
 
@@ -242,7 +242,49 @@
       </div>
     </div>
 
-   
+     <!-- Start About Section -->
+ <section id="about" class="about">
+    <div class="container col-sm-12 ">
+      <header class="text-center mb-70">
+        <h2 class="with-bg-text has-line-center">
+          <span class="heading-bg-text">About</span><span class="meet">More About Us</span>
+        </h2>
+      </header>
+      <div class="aboutContainer">
+      <div class="col-md-6 col-sm-6">
+        <img src="/assets/images/why-choose-us/4.png" class="center-block width-100" alt="image">
+      </div>
+      <div class="col-md-6 col-sm-6">
+        <h2 class="has-line">Check out how we will get you satisfied</h2>
+        <p class="lead mb-20" style="color:black">Platform Tech Solutions uses UCD(User Centred Design) Methodology for their projects. In which we try to optimize the product around how users can, want, or need to use the product, rather than forcing the users to change their behavior to accommodate the product.
+        </p>
+        <ul class="s-list list-unstyled mb-20">
+          <li><span class="fa fa-check"></span>Transparent Tracking system that provide the customers with their desired projects </li>
+          <li><span class="fa fa-check"></span>Using Cutting Edge Technologies for our projects</li>
+          <li><span class="fa fa-check"></span>A good teamwork ensures good output</li>
+        <li><span class="fa fa-check"></span>Analysing the difference between market and our products</li>
+          <!--   <li><span class="fa fa-check"></span>Transparent Tracking system that provide the customers with their desired projects</li> -->
+        </ul>
+      </div>
+    </div>
+</div>
+  </section>
+  <!-- End About Section -->
+
+    <section class="client">
+    <div class="container">
+        <div class="row">
+            <div class="carousel-client">
+                <div class="slide"><img src="https://grandvincentmarion.github.io/_img/slider-logo1.png"></div>
+                <div class="slide"><img src="https://grandvincentmarion.github.io/_img/slider-logo2.png"></div>
+                <div class="slide"><img src="https://grandvincentmarion.github.io/_img/slider-logo3.png"></div>
+                <div class="slide"><img src="https://grandvincentmarion.github.io/_img/slider-logo1.png"></div>
+                <div class="slide"><img src="https://grandvincentmarion.github.io/_img/slider-logo2.png"></div>
+                <div class="slide"><img src="https://grandvincentmarion.github.io/_img/slider-logo3.png"></div>
+            </div>
+        </div>
+    </div>
+</section>
     <!-- Footer -->
 <section id="footer" class="footer">
     <div class="container">
@@ -353,7 +395,8 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.js"></script> -->
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
 
 <!-- ==libarary file import==-->
@@ -362,6 +405,8 @@
 <script src="/assets/vendor/js/jquery.cardslider.min.js" type="text/javascript"></script>
 <script src="/assets/vendor/js/aos.js" type="text/javascript"></script>
 <script src="/assets/vendor/js/cycle2.js" type="text/javascript"></script>
+<script src="/assets/vendor/js/partner.js" type="text/javascript"></script>
+
 
 <script src="/assets/js/bootstrap.min.js"></script>
 <script src="https://use.fontawesome.com/5403bd8368.js"></script>
@@ -380,6 +425,16 @@
         duration: 1500,
     });
 </script>
+<script>
+$('.carousel-client').bxSlider({
+  auto: true,
+    slideWidth: 470,
+    minSlides: 2,
+    maxSlides: 3,
+    controls: false
+});
+</script>
+
 
 <!-- JS for navbar-->
 <!--Navbar js files-->
