@@ -1,4 +1,62 @@
-<div class="col-lg-4">
+<!-- <div id="blue">
+    <div class="container">
+        <div class="row">
+            <center><h3>Categories</h3></center>
+        </div> --><!-- /row -->
+  <!--  </div> --><!-- /container -->
+<!--</div> --><!-- /blue -->    
+
+    <div class="container mtb">
+    <div class="row">
+        <div class="col-lg-8">
+
+        <!-- BLOG POSTS LIST -->
+        
+
+                <a class="anchor" id="blog"></a><h4>blog</h4>
+                    <div class="hline"></div>
+                    <ul class="popular-posts">
+                        
+
+                            <li>
+                                <a href="/blog/2019/06/02/blog1.html"><img src="/assets/images/blog/thumbs/" alt="Popular Post"></a>
+                                <p><a href="/blog/2019/06/02/blog1.html">Blog 1</a></p>
+                                <em>Posted on 02 Jun 2019</em>
+                            </li>
+
+            
+
+                            <li>
+                                <a href="/blog/lorem%20ipsum/2019/06/01/blog2.html"><img src="/assets/images/blog/thumbs/" alt="Popular Post"></a>
+                                <p><a href="/blog/lorem%20ipsum/2019/06/01/blog2.html">Blog 2</a></p>
+                                <em>Posted on 01 Jun 2019</em>
+                            </li>
+
+            
+                                                </ul>
+
+
+        
+
+                <a class="anchor" id="lorem ipsum"></a><h4>lorem ipsum</h4>
+                    <div class="hline"></div>
+                    <ul class="popular-posts">
+                        
+
+                            <li>
+                                <a href="/blog/lorem%20ipsum/2019/06/01/blog2.html"><img src="/assets/images/blog/thumbs/" alt="Popular Post"></a>
+                                <p><a href="/blog/lorem%20ipsum/2019/06/01/blog2.html">Blog 2</a></p>
+                                <em>Posted on 01 Jun 2019</em>
+                            </li>
+
+            
+                                                </ul>
+
+
+        
+        </div><!--/col-lg-8 -->
+
+        <div class="col-lg-4">
     <!--  <h4>Search</h4>
      <div class="hline"></div>
          <p>
@@ -91,25 +149,36 @@
      <div class="spacing"></div>
      <h4>Categories</h4>
      <div class="hline"></div>
-     {% for category in site.categories %}
+     
          <p>
-             <a href="{{ '/category/#'  | prepend: site.baseurl  }}{{ category | first }}"><i class="fa fa-angle-right"></i> {{ category | first | capitalize }}</a>
-             <span class="badge badge-theme pull-right">{{ category | last | size }}</span>
+             <a href="/category/#blog"><i class="fa fa-angle-right"></i> Blog</a>
+             <span class="badge badge-theme pull-right">2</span>
          </p>
-     {% endfor %}
+     
+         <p>
+             <a href="/category/#lorem ipsum"><i class="fa fa-angle-right"></i> Lorem ipsum</a>
+             <span class="badge badge-theme pull-right">1</span>
+         </p>
+     
  
      <div class="spacing"></div>
  
      <h4>Recent Posts</h4>
      <div class="hline"></div>
          <ul class="popular-posts">
-             {% for post in site.posts limit:4 %}
+             
                  <li>
-                     <a href="{{ post.url  | prepend: site.baseurl }}"><img src="{{ '/assets/images/blog/thumbs/' | prepend: site.baseurl }}{{ post.thumb }}" alt="Popular Post"></a>
-                     <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-                 <em>Posted on {{ post.date | date_to_string }}</em>
+                     <a href="/blog/2019/06/02/blog1.html"><img src="/assets/images/blog/thumbs/" alt="Popular Post"></a>
+                     <p><a href="/blog/2019/06/02/blog1.html">Blog 1</a></p>
+                 <em>Posted on 02 Jun 2019</em>
              </li>
-             {% endfor %}
+             
+                 <li>
+                     <a href="/blog/lorem%20ipsum/2019/06/01/blog2.html"><img src="/assets/images/blog/thumbs/" alt="Popular Post"></a>
+                     <p><a href="/blog/lorem%20ipsum/2019/06/01/blog2.html">Blog 2</a></p>
+                 <em>Posted on 01 Jun 2019</em>
+             </li>
+             
          </ul>
  
      <div class="spacing"></div>
@@ -117,9 +186,15 @@
      <h4>Popular Tags</h4>
      <div class="hline"></div>
      <p>
-     {% for category in site.categories %}
-             <a class="btn btn-theme" href="{{ '/category/#'  | prepend: site.baseurl  }}{{ category | first }}" role="button">{{ category | first | capitalize }} ({{ category | last | size }})</a>
-         {% endfor %}
+     
+             <a class="btn btn-theme" href="/category/#blog" role="button">Blog (2)</a>
+         
+             <a class="btn btn-theme" href="/category/#lorem ipsum" role="button">Lorem ipsum (1)</a>
+         
      </p>
  </div>
  
+
+    </div><!--/row -->
+</div><!--/container -->
+
