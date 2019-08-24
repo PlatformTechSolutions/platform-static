@@ -581,6 +581,7 @@ button liquid
 }
 .briefing .briefing-content p {
   color: #fff;
+  font-size: 1.3rem;
   font-weight: 200;
   font-family: "Quicksand", sans-serif;
 }
@@ -590,6 +591,7 @@ button liquid
 }
 .briefing .briefing-content-opp p {
   color: #333;
+  font-size: 1.3rem;
   font-weight: 200;
   font-family: "Quicksand", sans-serif;
 }
@@ -740,8 +742,8 @@ div:nth-child(7) {
   background-image: linear-gradient(to right, #0d0b0b, #6d6860);
 }
 
-#TIPTOPTUTR {
-  background-image: linear-gradient(to right, #0d0b0b, #6d6860);
+#LADOOMATRIMONIAL {
+  background: url("4.jpg");
 }
 
 * {
@@ -1699,6 +1701,7 @@ nav ul li {
   text-align: center;
   width: 100vw;
   height: 65vh;
+  margin-bottom: 0px;
 }
 
 .jumbo-text {
