@@ -1692,25 +1692,40 @@ nav ul li {
     transform: scale(1.12, 1.12);
   }
 }
-/* Jumbotron starts */
-.jumbotron {
-  background: url("images/jumbotron-image.jpg");
+.jumbo-img {
+  background: url("../../../assets/images/about/about-jumbo-img.png");
   background-size: cover;
   margin-bottom: 8px;
   text-align: center;
+  width: 100vw;
+  height: 65vh;
 }
 
-.jumbo-img {
-  height: 50vh;
+.jumbo-text {
+  margin-top: 3em;
 }
 
-.jumbotron h1 {
-  color: #fff;
-  font-family: "Cinzel", serif;
-  font-size: 35px;
+.link-item {
+  color: #484C55;
+  padding-right: 0px;
+  width: 100%;
 }
 
-/* Jumbotron Ends */
+.link-item:hover {
+  color: #000;
+}
+
+.about-item:hover {
+  background-color: #e9ecef;
+  width: 96%;
+  border-radius: 5px;
+}
+
+.item-box {
+  padding-top: 5rem;
+  padding-left: 0px;
+}
+
 /*	################################################################
 
 	Author: Carlos Alvarez
