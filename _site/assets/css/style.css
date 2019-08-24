@@ -468,7 +468,7 @@ button liquid
   background: #e5eaea;
   height: 1000px;
   padding-top: 15px;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .landing-box img {
@@ -2208,7 +2208,7 @@ a.anchor {
 /*	 BX-SLIDER 	*/
 /****************/
 section.client {
-  padding: 4em 0em;
+  padding: 1em 0em 4em 0em;
   background-color: #eee;
 }
 
@@ -2339,4 +2339,18 @@ navbar -responsive
 .aboutContainer {
   display: flex;
   align-items: center;
+  margin-bottom: 3rem;
+}
+
+.why-choose-us-img {
+  height: 30rem;
+  width: 35rem;
+}
+
+.map-body {
+  padding: 2.5rem;
+}
+
+.form-body {
+  margin: 3rem auto;
 }

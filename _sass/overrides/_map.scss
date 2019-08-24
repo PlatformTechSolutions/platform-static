@@ -1,70 +1,81 @@
- .mapouter {
-        text-align: right;
-        height: 500px;
-        width: 600px;
-        border-radius: 8px !important;
-    }
+//  .mapouter {
+//         text-align: right;
+//         height: 500px;
+//         width: 600px;
+//         border-radius: 8px !important;
+//     }
 
-    .gmap_canvas {
-        overflow: hidden;
-        /* background: none !important; */
-        height: 400px;
-        width: 700px;
-        margin-top: 40px;
-        border-radius: 8px !important;
-    }
+//     .gmap_canvas {
+//         overflow: hidden;
+//         /* background: none !important; */
+//         height: 400px;
+//         width: 700px;
+//         margin-top: 40px;
+//         border-radius: 8px !important;
+//     }
 
-    @media screen and (max-width: 950px) {
-        .mapouter {
-            height: 450px;
-            width: 500px;
-        }
+//     @media screen and (max-width: 950px) {
+//         .mapouter {
+//             height: 450px;
+//             width: 500px;
+//         }
 
-        .gmap_canvas {
-            height: 450px;
-            width: 500px;
-        }
-    }
+//         .gmap_canvas {
+//             height: 450px;
+//             width: 500px;
+//         }
+//     }
 
-    @media screen and (max-width: 600px) {
-        .mapouter {
-            height: 300px;
-            width: 350px;
+//     @media screen and (max-width: 600px) {
+//         .mapouter {
+//             height: 300px;
+//             width: 350px;
 
-        }
+//         }
 
-        .gmap_canvas {
-            height: 300px;
-            width: 350px;
-        }
-    }
+//         .gmap_canvas {
+//             height: 300px;
+//             width: 350px;
+//         }
+//     }
 
-    .btn {
-        color: #343a40;
-        border-color: #d6e9fd;
-        background-color: #d6e9fd;
-    }
-    .btn:hover{
-        background-color: #343a40;
-        border-color:#343a40;
-    }
+//     .btn {
+//         color: #343a40;
+//         border-color: #d6e9fd;
+//         background-color: #d6e9fd;
+//     }
+//     .btn:hover{
+//         background-color: #343a40;
+//         border-color:#343a40;
+//     }
 
-    .row {
-        background-image: linear-gradient(to right, #0d0b0b, #6d6860);
-    }
+//     .row {
+//         background-image: linear-gradient(to right, #0d0b0b, #6d6860);
+//     }
 
-    .form-map {
-        color: white;
-        display: flex;
-        justify-content: center;
-    }
+//     .form-map {
+//         color: white;
+//         display: flex;
+//         justify-content: center;
+//     }
 
-    .well {
-        min-height: 20px;
-        padding: 19px;
-        margin-bottom: 20px;
-        border: 1px solid transparent;
-        background-color: transparent !important;
-        border-radius: 4px;
-    }
+//     .well {
+//         min-height: 20px;
+//         padding: 19px;
+//         margin-bottom: 20px;
+//         border: 1px solid transparent;
+//         background-color: transparent !important;
+//         border-radius: 4px;
+//     }
 
+//     .map-body{
+//         margin: 2.5rem;
+//     }
+
+.map-body{
+    padding: 2.5rem;
+}
+
+.form-body{
+    margin: 3rem auto;
+}
